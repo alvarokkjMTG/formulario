@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <link rel="stylesheet" href="formulário.css">
+    <link rel="shortcut icon" href="icons8-livro-64 (2).png">
+</head>
+
+<style>
+    body {
+    
+    background-size: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(243, 243, 243);
+    color: rgb(57, 35, 0);
+    font-size: medium;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+form{
+    width: 400px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 20px;
+    margin: auto;
+    
+}
+
+label {
+    margin-bottom: 5px;
+    display: block;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="sumit"]{
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+}
+
+</style>
+
+<body>
+    
+    <form>
+        
+
+
+        <header>
+        <h1 class="texto">Formulário de Empréstimo de Livros</h1>
+        <img src="Biblioteca.jpg" alt="" width="350px" height="150px">
+        <h2>📚</h2>
+        <h2 class="texto">Preencha os campos a seguir:</h2>
+        </header>
+
+        <label for="nome">Nome do Livro</label>
+        <br>
+        <input id="nome" required>📖
+        <br><br>
+        
+        <label for="nome">Matrícula</label>
+        <br>
+        <input id="nome">
+        <br><br>
+        
+        <label for="nome">CPF</label>
+        <br>
+        <input id="nome">
+        <br><br>
+        
+        <label for="nome">ISBN do Livro</label>
+        <br>
+        <input id="nome">📒
+        <br><br>
+        
+        <label for="nome">Título do Livro</label>
+        <br>
+        <input id="nome">📙
+        <br><br>
+        
+        <label for="nome">Autor do Livro</label>
+        <br>
+        <input id="nome">📘
+        <br><br>
+
+        <label for="nome">Dias de Emprestimo</label>
+        <br>
+        <input id="nome">📗
+        <br><br>
+        
+        <label for="">Data do Empréstimo</label>
+        <br>
+        <input type="date">
+        <br><br>
+
+        <label for="">Data da Devolução</label>
+        <br>
+        <input type="date">
+        <br><br>
+        
+        <input type="button" value="Emprestar">
+        <br><br>
+        
+        <input type="reset" value="Limpar">
+        <br><br>
+
+    </form>
+</body>
+</html>
